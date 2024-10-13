@@ -1,0 +1,87 @@
+.register{
+  background-color: rgb(36, 196, 196);
+  width: 50%;
+  margin: 200px auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.form .inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+input{
+  height: 35px;
+  width: 300px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 2px;
+}
+input[type=button]{
+  background-color: rgb(36, 196, 196);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: larger;
+  color: white;
+  cursor: pointer;
+}
+input[type=button]:active{
+  background-color: rgb(30, 214, 214);
+}
+input[type=button]:hover{
+  transform: scale(1.01);
+}
+
+.passwordField{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.passwordField input{
+  width: 290px;
+  border: none;
+  outline: none;
+}
+.passwordField .icon{
+  padding: 5px;
+  color: rgb(30, 214, 214);
+}
+.register span a{
+  color:white;
+}
+.cp{
+  background-color: rgb(36, 196, 196);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: larger;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+body{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

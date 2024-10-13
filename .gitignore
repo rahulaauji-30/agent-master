@@ -1,0 +1,15 @@
+# Node.js (Backend)
+Backend/node_modules/
+Backend/.env
+Backend/.DS_Store
+Backend/*.log
+
+# Vite (Frontend)
+Frontend/node_modules/
+Frontend/.env
+Frontend/.DS_Store
+Frontend/dist/
+Frontend/*.log
+
+# OS generated files
+.DS_Store
