@@ -81,6 +81,7 @@ if __name__ == "__main__":
   cd "\$destinationDirectory"
   python3 -m venv .venv
   source .venv/bin/activate
+  pip install requests
   python3 ${agentName}.py
   `
   let download;
